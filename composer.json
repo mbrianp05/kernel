@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mbrianp\\FuncCollection\\Kernel": "lib/Mbrianp/Kernel"
+            "Mbrianp\\FuncCollection\\Kernel\\": "lib/Mbrianp/Kernel"
         }
     }
 }
