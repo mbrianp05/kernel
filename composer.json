@@ -1,0 +1,26 @@
+{
+    "name": "mbrianp/kernel",
+    "description": "Framework kernel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian",
+            "email": "mbrianp05@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mbrianp/http": "*",
+        "mbrianp/dic": "*",
+        "mbrianp/orm": "*",
+        "mbrianp/logic": "*",
+        "mbrianp/routing": "*",
+        "mbrianp/view": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mbrianp\\FuncCollection\\Kernel": "lib/Mbrianp/Kernel"
+        }
+    }
+}
