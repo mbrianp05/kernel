@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="vendor/kernel/templates/assets/css/all.min.css">
+    <link rel="stylesheet" href="public/kernel/assets/css/all.min.css">
     <style>
         body, html {
             width: 100%;
@@ -148,6 +148,6 @@
         </a>
     </div>
 </div>
-<script src="vendor/kernel/templates/assets/js/all.min.js"></script>
+<script src="public/kernel/assets/js/all.min.js"></script>
 </body>
 </html>
