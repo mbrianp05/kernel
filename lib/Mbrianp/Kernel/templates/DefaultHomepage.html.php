@@ -148,6 +148,6 @@
         </a>
     </div>
 </div>
-<script src="public/kernel/assets/js/all.min.js"></script>
+<script src="kernel/assets/js/all.min.js"></script>
 </body>
 </html>
