@@ -16,7 +16,8 @@
         "mbrianp/orm": "*",
         "mbrianp/logic": "*",
         "mbrianp/routing": "*",
-        "mbrianp/view": "*"
+        "mbrianp/view": "*",
+        "laton/class-resolver": "*"
     },
     "autoload": {
         "psr-4": {
