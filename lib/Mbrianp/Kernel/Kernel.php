@@ -40,9 +40,14 @@ class Kernel
 
     protected DIC $dependenciesContainer;
 
-    public function __construct(protected array $config, protected array $registeredControllers = [])
+    protected array $registeredControllers = [];
+
+    public function __construct(protected array $config)
     {
         $this->initContainer();
+
+        $dcr = new DirectoryClassResolver($config['root'] . '/src/Controller');
+        $this->registeredControllers = $dcr->getClasses();
     }
 
     protected function initContainer(): void
