@@ -2,6 +2,7 @@
 
 namespace Mbrianp\FuncCollection\Kernel;
 
+use Laton\Framework\Kernel\ClassResolver\DirectoryClassResolver;
 use Mbrianp\FuncCollection\DIC\DIC;
 use Mbrianp\FuncCollection\DIC\Service;
 use Mbrianp\FuncCollection\Http\HttpDependenciesDefinition;
